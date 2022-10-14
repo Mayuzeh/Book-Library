@@ -1,0 +1,134 @@
+body {
+    color: #434343;
+    margin: 50px 125px;
+    font-family: 'Merriweather', serif;
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #6cb8d8 50%, #e4f5fd 50%);
+}
+  
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    /* color: #66BFBF; */
+    line-height: 2;
+}
+
+
+div {
+    padding: 0 0 10px;
+}
+
+.fa-solid {
+    color: #008CBA;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.table {
+   padding: 10px;
+   width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn.btn-primary {
+    background-color: #37b75d;
+    margin: 20px 0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.btn-primary:hover {
+    background-color: #44d26f;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.library {
+    margin: 10px 0;
+}
+  
+th {
+    padding: 12px 6px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    text-align: center;
+}
+
+tr {
+    transition-duration: 0.4s;
+}
+  
+tr:hover {
+    background-color: rgb(214, 240, 240);
+}
+
+.btn.btn-danger {
+    background-color: #d30202;
+    margin: 10px 0;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.btn-danger:hover {
+    background-color: #ff2d2d;
+    color: white;
+}
+
+.alert-danger {
+    background-color: #d30202;
+    margin: 10px 0;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #02d328;
+    margin: 10px 0;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
