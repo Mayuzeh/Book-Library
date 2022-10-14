@@ -112,11 +112,11 @@ document.querySelector("#book-form").addEventListener("submit", function (e) {
     });
 
 
-document.querySelector("#book-list").addEventListener("click", function(e) {
+document.querySelector("#book-library").addEventListener("click", function(e) {
 
         UI.deleteBook(e.target);
 
         Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
-        
+
         UI.showAlert("Book Successfully Removed", "success");
 });
